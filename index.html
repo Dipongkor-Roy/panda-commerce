@@ -13,7 +13,7 @@
   </head>
   <body>
   <header class="container">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="images/logo.png" alt="" />
@@ -32,9 +32,9 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Shoes</a>
-            <a class="nav-link" href="#">Backpack</a>
-            <a class="nav-link" href="#">Subscribe</a>
+            <a class="nav-link" href="#shoes">Shoes</a>
+            <a class="nav-link" href="#backpack">Backpack</a>
+            <a class="nav-link" href="#subscribe">Subscribe</a>
           </div>
         </div>
       </div>
@@ -125,7 +125,7 @@
   <!-- product catagories end-->
 <!-- shoe section start -->
 
-<section class="contaner my-5">
+<section class="contaner my-5" id="shoes">
   <h2>Shoes</h2>
   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
     <div class="col">
@@ -171,7 +171,7 @@
 </section>
 <!-- shoe section end -->
 <!-- backpack section start -->
-<section class="contaner my-5">
+<section class="contaner my-5" id="backpack">
   <h2>Backpack</h2>
   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
     <div class="col">
@@ -218,7 +218,28 @@
 </section>
 
 <!-- backpack section end -->
+
+<!-- subscribe start -->
+<section style="height: 300px;" class="container rounded-3 bg-info d-flex justify-content-center align-items-center" id="subscribe">
+  <div>
+    <h2>LET'S STAY IN TOUCH </h2>
+       <p> Get updates on sales, specials and more</h2></p>
+  <form >
+    <div class="mb-3">
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <button type="submit" class="btn btn-warning mt-1">Submit</button>
+  </form>
+  </div>
+</section>
+
+<!-- subscribe end-->
 </main>
+<!-- footer section star -->
+
+<footer class="mt-5 text-center">
+ <p><small>©2023. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
+</footer>
+<!-- footer section end -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
